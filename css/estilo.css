@@ -1,0 +1,31 @@
+body,html {
+    margin: auto;
+    background-color: #a7a7a7;
+    border: ridge 4px black;
+    border-radius: 7px;
+    outline: solid 15px forestgreen;
+}
+
+h1 {
+    text-align: center;
+    font-size: 200%;
+}
+
+#adress {
+    text-align: center;
+    border-top: outset 2px forestgreen;
+    margin: 0% 35%;
+}
+#redes {
+    display: flex;
+    margin: 0% 45% 0% 45%;
+    text-align: center;
+    font-size: 140%;
+}
+#redes a:hover {
+    font-size: larger;
+}
+
+#main {
+    margin: 1%;
+}
