@@ -6,6 +6,24 @@ body,html {
     outline: solid 15px forestgreen;
 }
 
+header {
+    background-color: rgb(33, 140, 33, 0.7);
+    height: 50px;
+}
+
+#redes {
+    display: flex;
+    margin: 0% 20% 0% 35%;
+    text-align: center;
+    font-size: 160%;
+}
+#redes a {
+    margin: 2% 5%;
+}
+#redes a:hover {
+    font-size: larger;
+}
+
 h1 {
     text-align: center;
     font-size: 200%;
@@ -16,16 +34,14 @@ h1 {
     border-top: outset 2px forestgreen;
     margin: 0% 35%;
 }
-#redes {
-    display: flex;
-    margin: 0% 45% 0% 45%;
-    text-align: center;
-    font-size: 140%;
-}
-#redes a:hover {
-    font-size: larger;
-}
 
 #main {
     margin: 1%;
+}
+
+footer {
+    background-color: rgb(34, 139, 34, 0.7);
+    text-align: center;
+    height: 30px;
+    padding-top: 1%;
 }
